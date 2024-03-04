@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "app-cust-exten-wp-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/appCustExtenWp/AppCustExtenWpApplicationCustomizer.js",
+          "manifest": "./src/extensions/appCustExtenWp/AppCustExtenWpApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AppCustExtenWpApplicationCustomizerStrings": "lib/extensions/appCustExtenWp/loc/{locale}.js"
+  }
+}

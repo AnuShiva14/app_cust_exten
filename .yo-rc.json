@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.19.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "app-cust-exten-sol",
+    "libraryId": "7f8edb46-c08f-4ffb-8b2e-1b573ef13ab2",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "app_cust_exten_sol",
+    "solutionShortDescription": "app_cust_exten_sol description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

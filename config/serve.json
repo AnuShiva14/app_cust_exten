@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://learnmyself04.sharepoint.com/sites/TestSite/SitePages/Application-Cust.aspx",
+      "customActions": {
+        "1fe702ae-f5b5-4593-be2e-e843b2ed4998": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "appCustExtenWp": {
+      "pageUrl": "https://learnmyself04.sharepoint.com/sites/TestSite/SitePages/Application-Cust.aspx",
+      "customActions": {
+        "1fe702ae-f5b5-4593-be2e-e843b2ed4998": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
